@@ -1,0 +1,64 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+
+    <style>
+        .layout-container {
+            border: 1px solid #000;
+            width: 100%;
+        }
+
+            .layout-container header, .layout-container footer {
+                height: 60px;
+                text-align: center;
+                line-height: 60px;
+            }
+
+            .layout-container header {
+                border-bottom: 1px solid #000;
+            }
+
+            .layout-container footer {
+                border-top: 1px solid #000;
+            }
+
+        .main-wrapper {
+            display: flex;
+            min-height: 250px;
+        }
+
+            .main-wrapper aside {
+                width: 25%;
+                border-right: 1px solid #000;
+                text-align: center;
+                padding-top: 20px;
+            }
+
+            .main-wrapper section {
+                width: 75%;
+                text-align: center;
+                padding-top: 20px;
+            }
+    </style>
+
+    <div class="layout-container">
+        <header>Header</header>
+
+        <div class="main-wrapper">
+            <aside>Aside (Sidebar)</aside>
+            <section>Section (Main Content)</section>
+        </div>
+
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>

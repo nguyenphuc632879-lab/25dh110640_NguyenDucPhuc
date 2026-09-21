@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Ký Sinh Viên</title>
+</head>
+<body>
+
+
+    <form action="https://www.google.com" method="POST" style="font-family: Arial, sans-serif;">
+
+        <h2>NHẬP THÔNG TIN SINH VIÊN</h2>
+
+        HỌ VÀ TÊN: <input type="text" name="hovaten"><br><br>
+
+        MÃ SỐ SINH VIÊN : <input type="text" name="mssv"><br><br>
+
+        NGÀY SINH: <input type="date" name="ngaysinh"><br><br>
+
+        CHUYÊN NGÀNH:
+        <input type="radio" name="chuyennganh" id="cnpm" value="CNPM"> <label for="cnpm">CNPM</label>
+        <input type="radio" name="chuyennganh" id="httt" value="HTTT"> <label for="httt">HTTT</label>
+        <input type="radio" name="chuyennganh" id="anm" value="AN NINH MẠNG"> <label for="anm">AN NINH MẠNG</label><br><br>
+
+        SỞ THÍCH:<br>
+        <input type="checkbox" name="sothich" id="vct" value="VIẾT CHƯƠNG TRÌNH"> <label for="vct">VIẾT CHƯƠNG TRÌNH</label><br>
+        <input type="checkbox" name="sothich" id="ptcsdl" value="PHÂN TÍCH CSDL"> <label for="ptcsdl">PHÂN TÍCH CSDL</label><br>
+        <input type="checkbox" name="sothich" id="xdsdm" value="XÂY DỰNG SƠ ĐỒ MẠNG"> <label for="xdsdm">XÂY DỰNG SƠ ĐỒ MẠNG</label><br><br>
+
+        MÀU SẮC YÊU THÍCH: <input type="color" name="mausac" value="#000000"><br><br>
+
+        HÌNH ĐẠI DIỆN: <input type="file" name="hinhdaidien"><br><br>
+
+        TÊN ĐĂNG NHẬP WEB TRƯỜNG: <input type="text" name="tendangnhap"><br><br>
+
+        MẬT KHẨU ĐĂNG NHẬP WEB TRƯỜNG: <input type="password" name="matkhau"><br><br>
+
+        <input type="submit" value="Gửi dữ liệu về máy chủ">
+
+    </form>
+
+</body>
+</html>
